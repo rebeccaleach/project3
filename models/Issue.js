@@ -1,10 +1,11 @@
 'use strict';
 
 module.exports = function(sequelize, DataTypes) {
-	var Comic = sequelize.define('Comic', 
+	var Comic = sequelize.define('Issue', 
 	{
-		name: DataTypes.STRING,
-		link: DataTypes.STRING
+		comicID: DataTypes.INTEGER,
+		comic: DataTypes.STRING,
+		issueNUMBER: DataTypes.INTEGER
 
 	}, {
 		classMethods: {
@@ -13,5 +14,5 @@ module.exports = function(sequelize, DataTypes) {
 			}
 		}
 	});
-	return Comic;
+	return Issue;
 };

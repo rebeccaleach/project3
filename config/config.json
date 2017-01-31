@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "password": "",
+    "database": "comicsDB",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
@@ -13,6 +13,10 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
+
+
+  // heroku stuff????
+  
   "production": {
     "username": "root",
     "password": null,
